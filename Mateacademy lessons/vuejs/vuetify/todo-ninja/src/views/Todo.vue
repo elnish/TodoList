@@ -82,12 +82,7 @@ export default {
         }
       });
         localStorage.setItem('todos', JSON.stringify(this.todos));
-    },
-    // created(){
-    //     if (localStorage.getItem('todos') !== null ){
-    //         this.todos = JSON.parse(localStorage.getItem('todos'))
-    //     }
-    // }
+    }
   },
 
 
